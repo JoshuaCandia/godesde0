@@ -22,7 +22,7 @@ func main() {
 
 	case "darwin":
 		fmt.Println("This is darwin")
-	default: //string
+	default: //%s == string
 		fmt.Printf("%s \n", os)
 	}
 }
