@@ -2,20 +2,25 @@ package main
 
 import (
 	"fmt"
-	"runtime"
+
+	"github.com/JoshuaCandia/godesde0/exercises"
 )
 
 func main() {
+	//variables
 	/* 	state, text := variables.ConvertToText(1500)
 	   	fmt.Println(state)
 	   	fmt.Println(text) */
-	if os := runtime.GOOS; os == "linux" || os == "OS X." {
+
+	//If
+	/* if os := runtime.GOOS; os == "linux" || os == "OS X." {
 		fmt.Println("This is not windows")
 	} else {
 		fmt.Println("This is windows")
-	}
+	} */
 
-	switch os := runtime.GOOS; os {
+	//Switch
+	/* switch os := runtime.GOOS; os {
 
 	case "linux":
 		fmt.Println("This is linux")
@@ -24,5 +29,8 @@ func main() {
 		fmt.Println("This is darwin")
 	default: //%s == string
 		fmt.Printf("%s \n", os)
-	}
+	} */
+	num, str := exercises.StrToInt("90")
+	fmt.Println(num)
+	fmt.Println(str)
 }
