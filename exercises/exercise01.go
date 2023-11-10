@@ -5,7 +5,7 @@ import "strconv"
 func StrToInt(str string) (int, string) {
 	integer, err := strconv.Atoi(str)
 	if err != nil {
-		return integer, " No es un número válido"
+		return integer, "Has an error" + err.Error()
 	}
 
 	if integer > 100 {

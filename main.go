@@ -31,6 +31,8 @@ func main() {
 		fmt.Printf("%s \n", os)
 	} */
 	num, str := exercises.StrToInt("90")
-	fmt.Println(num)
-	fmt.Println(str)
+
+	fmt.Println(num, str)
+	numb, stri := exercises.StrToInt("110")
+	fmt.Println(numb, stri)
 }
