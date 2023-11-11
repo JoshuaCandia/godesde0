@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/JoshuaCandia/godesde0/exercises"
+	"github.com/JoshuaCandia/godesde0/keyboard"
 )
 
 func main() {
@@ -30,9 +28,13 @@ func main() {
 	default: //%s == string
 		fmt.Printf("%s \n", os)
 	} */
-	num, str := exercises.StrToInt("90")
+
+	// Exercise 1
+	/* num, str := exercises.StrToInt("90")
 
 	fmt.Println(num, str)
 	numb, stri := exercises.StrToInt("110")
-	fmt.Println(numb, stri)
+	fmt.Println(numb, stri) */
+
+	keyboard.EntryNumbers()
 }
