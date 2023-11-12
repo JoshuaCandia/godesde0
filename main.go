@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/JoshuaCandia/godesde0/keyboard"
+	"github.com/JoshuaCandia/godesde0/iterators"
 )
 
 func main() {
@@ -36,5 +36,9 @@ func main() {
 	numb, stri := exercises.StrToInt("110")
 	fmt.Println(numb, stri) */
 
-	keyboard.EntryNumbers()
+	// Entries by console
+	/* keyboard.EntryNumbers()*/
+
+	// Exercise 2
+	iterators.Iterator()
 }
