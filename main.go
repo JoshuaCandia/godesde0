@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/JoshuaCandia/godesde0/iterators"
+	"github.com/JoshuaCandia/godesde0/exercises"
 )
 
 func main() {
@@ -39,6 +39,8 @@ func main() {
 	// Entries by console
 	/* keyboard.EntryNumbers()*/
 
-	// Exercise 2
-	iterators.Iterator()
+	// For iterator
+	/* iterators.Iterator() */
+
+	exercises.Multiply()
 }
