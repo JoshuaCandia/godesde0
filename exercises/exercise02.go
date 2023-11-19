@@ -20,7 +20,7 @@ func Multiply() {
 			if err != nil {
 				fmt.Println("Invalid number, try again")
 			} else {
-				for i := 0; i <= 10; i++ {
+				for i := 1; i <= 10; i++ {
 					fmt.Println(num, "x", i, "=", num*i)
 				}
 				break
