@@ -13,14 +13,14 @@ func Multiply() {
 	for {
 		fmt.Println("Enter a number:")
 		if scanner.Scan() {
-			number, err := strconv.Atoi(scanner.Text())
+			num, err := strconv.Atoi(scanner.Text())
 			if err != nil {
 				fmt.Println("Invalid input. Please enter a valid number.")
 				continue
 			}
 
 			for i := 1; i <= 10; i++ {
-				fmt.Printf("%d x %d = %d\n", number, i, number*i)
+				fmt.Printf("%d x %d = %d\n", num, i, num*i)
 			}
 			break
 		} else {
