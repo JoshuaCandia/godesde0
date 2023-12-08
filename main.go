@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/JoshuaCandia/godesde0/exercises"
+	"github.com/JoshuaCandia/godesde0/files"
 )
 
 func main() {
@@ -42,5 +42,11 @@ func main() {
 	// For iterator
 	/* iterators.Iterator() */
 
-	exercises.Multiply()
+	// fmt.Println(exercises.Multiply())
+
+	/* files.TableRecorder()
+
+	files.PlusTable() */
+
+	files.ReadFile()
 }
