@@ -43,10 +43,10 @@ func main() {
 	/* iterators.Iterator() */
 
 	// fmt.Println(exercises.Multiply())
+	/*
+		files.TableRecorder()
 
-	/* files.TableRecorder()
-
-	files.PlusTable() */
+	files.PlusTable()*/
 
 	files.ReadFile()
 }
