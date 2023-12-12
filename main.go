@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/JoshuaCandia/godesde0/files"
-)
+// "github.com/JoshuaCandia/godesde0/files"
 
 func main() {
 	//variables
@@ -48,5 +46,5 @@ func main() {
 
 	files.PlusTable()*/
 
-	files.ReadFile()
+	// sfiles.ReadFile()
 }
