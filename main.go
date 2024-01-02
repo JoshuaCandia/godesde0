@@ -1,6 +1,6 @@
 package main
 
-// Day 6
+// Day 7
 // "github.com/JoshuaCandia/godesde0/files"
 
 func main() {
